@@ -11,4 +11,4 @@ python:
       extra_requirements: [docs]  # 指定安装 docs 额外依赖
 
 sphinx:
-  configuration: docs/conf.py
+  configuration: source/conf.py
