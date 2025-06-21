@@ -1,0 +1,14 @@
+verison: 2
+build:
+  os:ubuntu-22.04
+tools:
+  python: "3.12"
+
+python:
+  install:
+    - method: pipi
+      path .
+      extra_requirements: [docs]  # 指定安装 docs 额外依赖
+
+sphinx:
+  configuration: docs/conf.py
