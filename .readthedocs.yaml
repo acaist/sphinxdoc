@@ -6,7 +6,7 @@ build:
 
 python:
   install:
-    - method: pipi
+    - method: pip
       path: .
       extra_requirements: [docs]  # 指定安装 docs 额外依赖
 
